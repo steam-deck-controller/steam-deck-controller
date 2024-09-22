@@ -2,3 +2,4 @@
 /firmware/repos/
 /firmware/cmake-build-debug/
 /firmware/CMakeLists.txt
+/.idea/
