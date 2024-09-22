@@ -17,6 +17,12 @@
       "echo 'Welcome to devbox!' > /dev/null"
     ],
     "scripts": {
+      "install": [
+        "cd firmware && newt upgrade"
+      ],
+      "build": [
+        "cd firmware && newt build pca10056-boot"
+      ],
       "test": [
         "echo \"Error: no test specified\" && exit 1"
       ]
