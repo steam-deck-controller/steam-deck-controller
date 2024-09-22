@@ -1,2 +1,4 @@
 /firmware/bin/
 /firmware/repos/
+/firmware/cmake-build-debug/
+/firmware/CMakeLists.txt
