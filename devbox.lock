@@ -593,6 +593,70 @@
           "store_path": "/nix/store/7zay0j83wi97ppwjw7cv8iafpsnz4pd8-mynewt-newt-1.10.0"
         }
       }
+    },
+    "python312Packages.west@latest": {
+      "last_modified": "2024-09-10T15:01:03Z",
+      "resolved": "github:NixOS/nixpkgs/5ed627539ac84809c78b2dd6d26a5cebeb5ae269#python312Packages.west",
+      "source": "devbox-search",
+      "version": "1.2.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/0g51dn3k628m2zj4cwi2143dph8n4ylx-python3.12-west-1.2.0",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/rgarad33zfgl66mia3mfv83s3sqr3kli-python3.12-west-1.2.0-dist"
+            }
+          ],
+          "store_path": "/nix/store/0g51dn3k628m2zj4cwi2143dph8n4ylx-python3.12-west-1.2.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/60bc6ks6n2lkhwkrhlihb8rv6yiyls13-python3.12-west-1.2.0",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/q1igzarczijfnay1yc0gshjwb58jkcvl-python3.12-west-1.2.0-dist"
+            }
+          ],
+          "store_path": "/nix/store/60bc6ks6n2lkhwkrhlihb8rv6yiyls13-python3.12-west-1.2.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/wkmwb904xfr38l0lla7bmbvqax8mgqzm-python3.12-west-1.2.0",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/kr9i64kpvajf3r35za7hczbx6ff24nz5-python3.12-west-1.2.0-dist"
+            }
+          ],
+          "store_path": "/nix/store/wkmwb904xfr38l0lla7bmbvqax8mgqzm-python3.12-west-1.2.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/hhlb4sh2wq8qgzlrsgq8d7nv3x9dq86h-python3.12-west-1.2.0",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/zlwnjicvkfjhmrgvw6gf37hfwj3kd77x-python3.12-west-1.2.0-dist"
+            }
+          ],
+          "store_path": "/nix/store/hhlb4sh2wq8qgzlrsgq8d7nv3x9dq86h-python3.12-west-1.2.0"
+        }
+      }
     }
   }
 }

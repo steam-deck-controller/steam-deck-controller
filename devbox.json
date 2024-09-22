@@ -10,7 +10,9 @@
     "gcc_debug@latest",
     "gcc_multi@latest",
     "gdb@latest",
-    "gnumake@latest"
+    "gnumake@latest",
+    "github:katyo/zephyr-rtos.nix#zephyr-sdk",
+    "python312Packages.west@latest"
   ],
   "shell": {
     "init_hook": [
