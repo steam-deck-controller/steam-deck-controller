@@ -8,7 +8,9 @@
     "gcc@latest",
     "gcc-arm-embedded@latest",
     "gcc_debug@latest",
-    "gcc_multi@latest"
+    "gcc_multi@latest",
+    "gdb@latest",
+    "gnumake@latest"
   ],
   "shell": {
     "init_hook": [
