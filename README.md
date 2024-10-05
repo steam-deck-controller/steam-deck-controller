@@ -21,7 +21,7 @@ Once wireless communication is implemented, we are open to exploring additional 
 
 ## ✅ Current Progress
 
-- [x] USB pinout reverse engineering completed
+- [x] USB pinout reverse engineering completed ([details](./research/Controller_Boards.md))
 - [x] Basic wired proof-of-concept showing the possibility ([demo video](https://youtu.be/daWLg8Y8ThU))
 - [ ] Design FFC to USB-C Breakout PCB
   - For development purposes
