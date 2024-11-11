@@ -18,7 +18,7 @@
     "scripts": {
       "build": [
         "cd firmware/build",
-        "cmake ..",
+        "cmake -DPICO_BOARD=pico_w -DPICO_SDK_FETCH_FROM_GIT=true ..",
         "make"
       ]
     }
