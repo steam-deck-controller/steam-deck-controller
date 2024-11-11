@@ -4,29 +4,22 @@
     "cmake@latest",
     "gperf@latest",
     "ccache@latest",
-    "mynewt-newt@latest",
     "gcc@latest",
     "gcc-arm-embedded@latest",
     "gcc_debug@latest",
     "gcc_multi@latest",
     "gdb@latest",
-    "gnumake@latest",
-    "github:katyo/zephyr-rtos.nix#zephyr-sdk",
-    "python312Packages.west@latest"
+    "gnumake@latest"
   ],
   "shell": {
     "init_hook": [
       "echo 'Welcome to devbox!' > /dev/null"
     ],
     "scripts": {
-      "install": [
-        "cd firmware && newt upgrade"
-      ],
       "build": [
-        "cd firmware && newt build pca10056-boot"
-      ],
-      "test": [
-        "echo \"Error: no test specified\" && exit 1"
+        "cd firmware/build",
+        "cmake ..",
+        "make"
       ]
     }
   }

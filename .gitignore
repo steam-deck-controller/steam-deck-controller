@@ -1,5 +1,3 @@
-/firmware/bin/
-/firmware/repos/
+/firmware/build/*
 /firmware/cmake-build-debug/
-/firmware/CMakeLists.txt
 /.idea/

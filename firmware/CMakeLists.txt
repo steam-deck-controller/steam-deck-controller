@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.12)
+
+# initialize the SDK based on PICO_SDK_PATH
+# note: this must happen before project()
+include(pico_sdk_import.cmake)
+
+project(steam_deck_controller)
+
+# initialize the Pico SDK
+pico_sdk_init()
+
+# rest of your project
+
+add_subdirectory(freertos)
+add_subdirectory(transmitter)
+add_subdirectory(receiver)
