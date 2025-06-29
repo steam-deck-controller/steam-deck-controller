@@ -20,6 +20,8 @@ For the time being, this controller is wired only. A full wireless solution may 
   - For development purposes
   - [Optional] for wired-only controller builds
 - [x] Design 3D printable shell prototype (_Resin / FDM / SLS is TDB_)
+- [x] Add BOM for Electronics and Steamdeck parts
+- [ ] Add levers for rear button functionality
 - [ ] Create detailed assembly guide
 - [ ] TBD
 
@@ -30,6 +32,18 @@ For the time being, this controller is wired only. A full wireless solution may 
 - **No Firmware Modification**: The controller will work with the original Steam Deck firmware.
 
 ## 🛠️ Getting Started
+
+- BOM: PCB
+  - See electronics
+
+- BOM: SteamDeck Parts
+  - All Face Buttons (ABXY, Dpad, View, Menu, Steam, QA)
+  - R1/2/4/5 and L1/2/4/5 Buttons
+  - Thumbsticks and Thumbstick Boards
+  - Trackpad Assemblies
+  - Facebutton Brackets and Flexes
+  - Left and Right Controller Daughterboards
+
 
 [Coming Soon]
 
