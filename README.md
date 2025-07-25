@@ -38,7 +38,7 @@ For the time being, this controller is wired only. A full wireless solution may 
 - PCB
   - See electronics
 
-- Controller Hardware (Needs to be removed from an lcd steamdeck, some parts can be substituted)
+- Controller Hardware (Needs to be removed from a preferably broken lcd steamdeck, some parts can be substituted for third party components)
   - All Face Buttons (ABXY, Dpad, View, Menu, Steam, (...),)
   - Triggers And Bumpers
   - Thumbstick Modules (Can use elecgear parts, they sell analog or hall effect. Elecgear is recomended because gilikit has a square deadzone)
@@ -46,7 +46,7 @@ For the time being, this controller is wired only. A full wireless solution may 
   - Trackpad Modules Assemblies
   - Action Button and D-Pad Brackets and Boards
   - Left and Right Controller Daughterboards
-  - 
+    
 ## 📝 License & Contributions
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -65,9 +65,10 @@ Pull requests are welcome, acceptance is at the sole discression of the OSDC Tea
 - [Valve Corporation](https://www.valvesoftware.com/) - For creating the Steam Deck, the original Steam Controller and Steam Input
 - [SlickBuys](slickbuysmodsandrepairs.com/) - For providing parts
 
-## ⚠️ Disclaimers
-
-This is a community project not affiliated with Valve Corporation. Use at your own risk.
-
 ## Legal Attributions:
+This is a community project not affiliated with Valve Corporation. 
+There is always a risk of destroying parts while dissasembling the deck, if you arent comfortable taking this risk please do not partake in this project. 
+Modification of parts can possibly void warranty. 
+OSDC Team takes no responbility for broken parts or voided warrenty as a result of partaking in this project.
+
 - ©2025 Valve Corporation. Steam and the Steam logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries.
