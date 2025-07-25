@@ -1,4 +1,4 @@
-# SteamPad: A SteamDeck inspired gamepad!
+# Open Steam Deck Controller (Name TBD)!
 
 <img src="./media/Preview.jpg" width="250" align="right">
 
