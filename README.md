@@ -33,34 +33,25 @@ For the time being, this controller is wired only. A full wireless solution may 
 - **No Firmware Modification**: The controller will work with the original Steam Deck firmware.
 - **No Hardware Modification**: The only required pcb doesnt require any modifications to the pcbs, this makes the project more accessable even if you know nothing about electrionics. It also opens the possibility of us to sell the usbc preassembled for people to create there own.
 
-## 🛠️ Getting Started
+## 🛠 Parts
 
-- BOM: PCB
+- PCB
   - See electronics
 
-- BOM: SteamDeck Parts
-  - All Face Buttons (ABXY, Dpad, View, Menu, Steam, QA)
-  - R1/2/4/5 and L1/2/4/5 Buttons
-  - Thumbsticks and Thumbstick Boards
-  - Trackpad Assemblies
-  - Facebutton Brackets and Flexes
+- Controller Hardware (Needs to be removed from an lcd steamdeck, some parts can be substituted)
+  - All Face Buttons (ABXY, Dpad, View, Menu, Steam, (...),)
+  - Triggers And Bumpers
+  - Thumbstick Modules (Can use elecgear parts, they sell analog or hall effect. Elecgear is recomended because gilikit has a square deadzone)
+  - Back Buttons
+  - Trackpad Modules Assemblies
+  - Action Button and D-Pad Brackets and Boards
   - Left and Right Controller Daughterboards
-
-
-[Coming Soon]
-
-## 📋 Requirements
-
-- Original Steam Deck controller parts (specific list coming soon)
-- [Additional requirements TBD]
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📝 License
+  - 
+## 📝 License & Contributions
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Pull requests are welcome, acceptance is at the sole discression of the OSDC Team.
+
 
 ## 🙏 Acknowledgments
 
