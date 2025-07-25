@@ -24,14 +24,14 @@ For the time being, this controller is wired only. A full wireless solution may 
 - [x] Add BOM for Electronics and Steamdeck parts
 - [ ] Add levers for rear button functionality
 - [ ] Create detailed assembly guide
+- [ ] Create PCB and firmware for 2.4ghz wireless capablility
 - [ ] TBD
 
 ### 🤔 Why this approach?
 
 - **Driver-Free Operation**: The USB dongle will emulate the original USB descriptors, allowing the controller to work without additional drivers.
-- **No Additional Software**: The controller will work out-of-the-box via Steam.
-- **No Firmware Modification**: The controller will work with the original Steam Deck firmware.
-- **No Hardware Modification**: The only required pcb doesnt require any modifications to the pcbs, this makes the project more accessable even if you know nothing about electrionics. It also opens the possibility of us to sell the usbc preassembled for people to create there own.
+- **No Additional Software**: The controller will work out-of-the-box via Steam's Controller support. It should also work without steam on linux based system as the linux kernel has inbuilt drivers for steamdeck controllers.
+- **No Hardware Modification**: The only required pcb doesnt require any modifications to the pcbs or firmware on the boards, this makes the project more accessable even if you know nothing about electrionics. It also opens the possibility of us to sell the usbc preassembled for people to create there own.
 
 ## 🛠 Parts
 
