@@ -11,6 +11,7 @@ For the time being, this controller is wired only. A full wireless solution may 
 - Create a standalone controller using original Steam Deck (LCD-Deck) parts
 - Design and provide 3D printable shell (hopefully compatible with resin / FDM printers)
 - Provide possibility for a basic wired-only controller build
+- Create a wireless version.
 
 ## ✅ Current Progress
 
@@ -71,10 +72,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   - [Roni1993](https://github.com/Roni1993)
   - [Alia5](https://github.com/Alia5)
   - [oaSysFox](https://github.com/oaSysFox)
-  - [Additional Members here]
+  - [Kamp](https://github.com/mriankamp)
+  - [Instagalactix](https://github.com/instagalactix)
+    
 - [Valve Corporation](https://www.valvesoftware.com/) - For creating the Steam Deck, the original Steam Controller and Steam Input
 - [SlickBuys](slickbuysmodsandrepairs.com/) - For providing parts
 
-## ⚠️ Disclaimer
+## ⚠️ Disclaimers
 
 This is a community project not affiliated with Valve Corporation. Use at your own risk.
+
+## Legal Attributions:
+- ©2025 Valve Corporation. Steam and the Steam logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries.
