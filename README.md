@@ -1,4 +1,4 @@
-# Open Steam Deck Controller (Name TBD)!
+# OSDC - Open Steam Deck Controller (Name TBD)!
 
 <img src="./media/Preview.jpg" width="250" align="right">
 
