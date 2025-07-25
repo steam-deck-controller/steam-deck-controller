@@ -11,7 +11,7 @@ For the time being, this controller is wired only. A full wireless solution may 
 - Create a standalone controller using original Steam Deck (LCD-Deck) parts
 - Design and provide 3D printable shell (hopefully compatible with resin / FDM printers)
 - Provide possibility for a basic wired-only controller build
-- Create a wireless version.
+- Create a wireless version, which the would substitute the currect ffc to usb-c breakout.
 
 ## ✅ Current Progress
 
@@ -31,6 +31,7 @@ For the time being, this controller is wired only. A full wireless solution may 
 - **Driver-Free Operation**: The USB dongle will emulate the original USB descriptors, allowing the controller to work without additional drivers.
 - **No Additional Software**: The controller will work out-of-the-box via Steam.
 - **No Firmware Modification**: The controller will work with the original Steam Deck firmware.
+- **No Hardware Modification**: The only required pcb doesnt require any modifications to the pcbs, this makes the project more accessable even if you know nothing about electrionics. It also opens the possibility of us to sell the usbc preassembled for people to create there own.
 
 ## 🛠️ Getting Started
 
@@ -56,11 +57,6 @@ For the time being, this controller is wired only. A full wireless solution may 
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-### 💬 Discord
-
-Join our Discord server to discuss the project, ask questions, or share your ideas!  
-[![Discord](https://img.shields.io/discord/1284933328470016031?color=7289DA&label=Discord&logo=discord&logoColor=white)](https://discord.gg/rduBamsN49)
 
 ## 📝 License
 
