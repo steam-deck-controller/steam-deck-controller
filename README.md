@@ -1,19 +1,17 @@
 # OSDC - Open Steam Deck Controller (Name TBD)!
 
-<img src="./media/Preview.jpg" width="250" align="right">
-
 Convert your spare Steam Deck parts into a fully functional standalone controller! This project aims to repurpose original Steam Deck components into a custom-designed handheld controller.
 
 For the time being, this controller is wired only. A full wireless solution may come at some point in the future!
 
-## 🎯 Project Goals
+## Project Goals
 
 - Create a standalone controller using original Steam Deck (LCD-Deck) parts
 - Design and provide 3D printable shell (hopefully compatible with resin / FDM printers)
 - Provide possibility for a basic wired-only controller build
 - Create a wireless version, which the would substitute the currect ffc to usb-c breakout.
 
-## ✅ Current Progress
+## Current Progress
 
 - [x] USB pinout reverse engineering completed ([details](./research/Controller_Boards.md))
 - [x] Basic wired proof-of-concept showing the possibility ([demo video](https://youtu.be/daWLg8Y8ThU))
@@ -27,13 +25,13 @@ For the time being, this controller is wired only. A full wireless solution may 
 - [ ] Create PCB and firmware for 2.4ghz wireless capablility
 - [ ] TBD
 
-### 🤔 Why this approach?
+## Why this approach?
 
 - **Driver-Free Operation**: The USB dongle will emulate the original USB descriptors, allowing the controller to work without additional drivers.
 - **No Additional Software**: The controller will work out-of-the-box via Steam's Controller support. It should also work without steam on linux based system as the linux kernel has inbuilt drivers for steamdeck controllers.
 - **No Hardware Modification**: The only required pcb doesnt require any modifications to the pcbs or firmware on the boards, this makes the project more accessable even if you know nothing about electrionics. It also opens the possibility of us to sell the usbc preassembled for people to create there own.
 
-## 🛠 Parts
+## Parts
 
 - PCB
   - See electronics
@@ -47,13 +45,13 @@ For the time being, this controller is wired only. A full wireless solution may 
   - Action Button and D-Pad Brackets and Boards
   - Left and Right Controller Daughterboards
     
-## 📝 License & Contributions
+## License & Contributions
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 Pull requests are welcome, acceptance is at the sole discression of the OSDC Team.
 
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Steam Deck Controller Team
   - [Roni1993](https://github.com/Roni1993)
