@@ -9,6 +9,8 @@
     "gcc_debug@latest",
     "gcc_multi@latest",
     "gdb@latest",
+    "openocd-rp2040@latest",
+    "minicom@latest",
     "gnumake@latest"
   ],
   "shell": {
@@ -16,6 +18,11 @@
       "echo 'Welcome to devbox!' > /dev/null"
     ],
     "scripts": {
+      "debug-build": [
+        "cd firmware/build",
+        "cmake -DCMAKE_BUILD_TYPE=Debug ..",
+        "make"
+      ],
       "build": [
         "cd firmware/build",
         "cmake ..",

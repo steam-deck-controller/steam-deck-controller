@@ -545,6 +545,102 @@
           "store_path": "/nix/store/hv1p0awxb1m3v7aiyncrrwn64g5fzj55-gperf-3.1"
         }
       }
+    },
+    "minicom@latest": {
+      "last_modified": "2024-11-16T04:25:12Z",
+      "resolved": "github:NixOS/nixpkgs/34a626458d686f1b58139620a8b2793e9e123bba#minicom",
+      "source": "devbox-search",
+      "version": "2.9",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/1w5q3y7b1hr11k4h6v3k2icsr97lzb7y-minicom-2.9",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/1w5q3y7b1hr11k4h6v3k2icsr97lzb7y-minicom-2.9"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/9s7c7snwv72ancknris5lhyc6pfvqx1y-minicom-2.9",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/9s7c7snwv72ancknris5lhyc6pfvqx1y-minicom-2.9"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/1vcifgm5a9ayijg1vyf23c6wjaknn1n4-minicom-2.9",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/1vcifgm5a9ayijg1vyf23c6wjaknn1n4-minicom-2.9"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/iaid4m86k74j30wprcyswr0sgx149l33-minicom-2.9",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/iaid4m86k74j30wprcyswr0sgx149l33-minicom-2.9"
+        }
+      }
+    },
+    "openocd-rp2040@latest": {
+      "last_modified": "2024-11-16T04:25:12Z",
+      "resolved": "github:NixOS/nixpkgs/34a626458d686f1b58139620a8b2793e9e123bba#openocd-rp2040",
+      "source": "devbox-search",
+      "version": "0.12.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/wmdm2iqrg8ia71zr9xjx4qqlmp34v0mn-openocd-rp2040-0.12.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/wmdm2iqrg8ia71zr9xjx4qqlmp34v0mn-openocd-rp2040-0.12.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/k0qxh8ivza61bijzfw8rrxsb7k5cyrgp-openocd-rp2040-0.12.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/k0qxh8ivza61bijzfw8rrxsb7k5cyrgp-openocd-rp2040-0.12.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/yvandx583qyam6sfyd0qjihzdjzs5qsp-openocd-rp2040-0.12.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/yvandx583qyam6sfyd0qjihzdjzs5qsp-openocd-rp2040-0.12.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/mv66fzbv3fh4l7r5w248qp6m72g3dgbz-openocd-rp2040-0.12.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/mv66fzbv3fh4l7r5w248qp6m72g3dgbz-openocd-rp2040-0.12.0"
+        }
+      }
     }
   }
 }
