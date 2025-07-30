@@ -20,8 +20,10 @@ void led_task(void *p)
     while (true) {
         cyw43_arch_gpio_put(a->gpio, 1);
         vTaskDelay(pdMS_TO_TICKS(a->delay));
+        printf("Turning on\n");
         cyw43_arch_gpio_put(a->gpio, 0);
         vTaskDelay(pdMS_TO_TICKS(a->delay));
+        printf("Turning off\n");
     }
 }
 
