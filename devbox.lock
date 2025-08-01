@@ -645,6 +645,82 @@
           "store_path": "/nix/store/mv66fzbv3fh4l7r5w248qp6m72g3dgbz-openocd-rp2040-0.12.0"
         }
       }
+    },
+    "usbutils@latest": {
+      "last_modified": "2025-07-13T22:45:35Z",
+      "resolved": "github:NixOS/nixpkgs/a421ac6595024edcfbb1ef950a3712b89161c359#usbutils",
+      "source": "devbox-search",
+      "version": "018",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/7if85nsp2a88ymjghkfxjqw3z1hgyfik-usbutils-018",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/xnqip5p5z7bd8ivzxaqzdz43m5939z0k-usbutils-018-man",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/7if85nsp2a88ymjghkfxjqw3z1hgyfik-usbutils-018"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/vy6kn565zsav6dgsjll345mp1rxn0cbk-usbutils-018",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/frqadiyfff8adjgn10ny1magqvy1h9x7-usbutils-018-man",
+              "default": true
+            },
+            {
+              "name": "python",
+              "path": "/nix/store/i32m9vm373rnliryp5a51yyy826mp8hs-usbutils-018-python"
+            }
+          ],
+          "store_path": "/nix/store/vy6kn565zsav6dgsjll345mp1rxn0cbk-usbutils-018"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/7apirswg15jjqmgmxz0gg6zvfd7lmsrr-usbutils-018",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/m0y6alqryflszg6lx677yi2djfrn77v9-usbutils-018-man",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/7apirswg15jjqmgmxz0gg6zvfd7lmsrr-usbutils-018"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/29b1x0fmgr139whdj188vwj70y1fyfzm-usbutils-018",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/66js3wln2xnpb2fxyz39zb0ar860cavk-usbutils-018-man",
+              "default": true
+            },
+            {
+              "name": "python",
+              "path": "/nix/store/2s3qv8mcbmvazwzp3hwjc1bs89p7n5ik-usbutils-018-python"
+            }
+          ],
+          "store_path": "/nix/store/29b1x0fmgr139whdj188vwj70y1fyfzm-usbutils-018"
+        }
+      }
     }
   }
 }
