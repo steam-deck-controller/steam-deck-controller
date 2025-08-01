@@ -23,7 +23,7 @@ if (NOT PIO_USB_PATH)
 
         if (NOT pio_usb_POPULATED)
             message("Downloading PIO USB library")
-            FetchContent_Populate(pio_usb)
+            FetchContent_MakeAvailable(pio_usb)
             set(PIO_USB_PATH ${pio_usb_SOURCE_DIR})
         endif()
     else()

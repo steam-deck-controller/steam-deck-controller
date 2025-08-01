@@ -13,6 +13,7 @@
     "minicom@latest",
     "gnumake@latest"
   ],
+    "env_from": "devbox.env",
   "shell": {
     "init_hook": [
       "echo 'Welcome to devbox!' > /dev/null"
