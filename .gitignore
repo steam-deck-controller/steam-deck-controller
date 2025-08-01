@@ -1,3 +1,4 @@
 /firmware/build/*
+/firmware/libs/*
 /firmware/cmake-build-debug/
 /.idea/
