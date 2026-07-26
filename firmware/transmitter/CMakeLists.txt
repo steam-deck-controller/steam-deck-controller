@@ -1,10 +1,12 @@
 add_executable(transmitter
         transmitter.c
+        tusb_config.h
 )
 target_link_libraries(transmitter
         pico_stdlib              # for core functionality
         pico_cyw43_arch_none     # we need Wifi to access the GPIO, but we don't need anything else
         freertos
+        pico_pio_usb
 )
 
 pico_enable_stdio_usb(transmitter 1)
